@@ -1,3 +1,4 @@
+
 function getPriceFromTimeAndHourPrice() {
     /*First machine*/
     hourValue1 = parseInt(document.getElementById('firstPartPriceHour').value)
