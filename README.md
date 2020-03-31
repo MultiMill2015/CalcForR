@@ -1,0 +1,2 @@
+# CalcForR
+machine time calculator
