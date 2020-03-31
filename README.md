@@ -1,2 +1,2 @@
-# CalcForR
-machine time calculator
+# turbo-spork
+Just learning code
