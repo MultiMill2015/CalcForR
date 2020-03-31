@@ -1,2 +1,1 @@
-# turbo-spork
-Just learning code
+# CalcForR
