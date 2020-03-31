@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine price to time calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator-grid">
+
+            <div>Hour</div>
+            <div>Minute</div>
+            <div>€/Hour</div>
+            <div>Price</div>
+        
+            <input id="firstPartPriceHour" placeholder="Hour" value="0" type="text">
+            <input id="firstPartPriceMinute" placeholder="Minute" value="0" type="text">
+            <input id="firstMachineHourCost" placeholder="€/Hour" value="85" type="text">
+            <div id="firstMachineResult">0€</div>
+        
+            <input id="secondPartPriceHour" placeholder="Hour" value="0" type="text">
+            <input id="secondPartPriceMinute" placeholder="Minute" value="0" type="text">
+            <input id="secondMachineHourCost" placeholder="€/Hour" value="75" type="text">
+            <div id="secondMachineResult">0€</div>
+        
+            <input id="thirdPartPriceHour" placeholder="Hour" value="0" type="text">
+            <input id="thirdPartPriceMinute" placeholder="Minute" value="0" type="text">
+            <input id="thirdMachineHourCost" placeholder="€/Hour" value="60" type="text">
+            <div id="thirdMachineResult">0€</div>
+        
+        
+            <input id="forthPartPriceHour" placeholder="Hour" value="0" type="text">
+            <input id="forthPartPriceMinute" placeholder="Minute" value="0" type="text">
+            <input id="forthMachineHourCost" placeholder="€/Hour" value="45" type="text">
+            <div id="forthMachineResult">0€</div>
+        
+
+            <div class="span-two" onclick="getPriceFromTimeAndHourPrice()" type="button">Calculate</div>
+            <div class="span-two" onclick="reset()" type="button">Reset</div>
+            <div class="span-four" id="totalPriceFromAllMachines">0 € Total</div>
+
+    </div>
+    
+</body>
+
+    
+<script src="main.js"></script>
+</html>
