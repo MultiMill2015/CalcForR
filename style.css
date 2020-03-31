@@ -1,0 +1,69 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    background: linear-gradient(to right, #d1dadd, #8cc2db);
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 100px);
+}
+.calculator-grid > input {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.8rem;
+    outline: none;
+    background-color: rgba(8, 8, 8, 0.2);
+    border: 1px solid rgba(8, 8, 8, 0.05);
+
+}
+
+.calculator-grid > div{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    justify-content: center;
+    background-color: rgba(8, 8, 8, 0.2);
+    border: 1px solid rgba(8, 8, 8, 0.05);
+    word-wrap: break-word;
+
+}
+
+.span-two {
+    grid-column: span 2;
+    background-color: rgba(255, 255, 255, .3);
+
+}
+.span-four {
+    grid-column: span 4;
+
+}
+
+
+.calculator-grid > input:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+
+}
+
+.calculator-grid > .span-two:hover {
+    background-color: rgba(255, 255, 255, .5);
+
+}
+
+div {
+        user-select: none; /* supported by Chrome and Opera */
+       -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+}
