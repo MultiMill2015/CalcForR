@@ -85,7 +85,7 @@ function reset() {
     let b1 = document.getElementById("firstPartPriceMinute");
     b1.value = 0;
     let c1 = document.getElementById("firstMachineHourCost");
-    c1.value = 85;
+    c1.value = 95;
     document.getElementById("firstMachineResult").innerHTML = 0 + '€';
     
     let a2 = document.getElementById("secondPartPriceHour");
@@ -93,7 +93,7 @@ function reset() {
     let b2 = document.getElementById("secondPartPriceMinute");
     b2.value = 0;
     let c2 = document.getElementById("secondMachineHourCost");
-    c2.value = 75;
+    c2.value = 85;
     document.getElementById("secondMachineResult").innerHTML = 0 + '€';
 
 
@@ -102,7 +102,7 @@ function reset() {
     let b3 = document.getElementById("thirdPartPriceMinute");
     b3.value = 0;
     let c3 = document.getElementById("thirdMachineHourCost");
-    c3.value = 55;
+    c3.value = 65;
 
     document.getElementById("thirdMachineResult").innerHTML = 0 + '€';
 
@@ -120,7 +120,7 @@ function reset() {
     let b5 = document.getElementById("fifthPartPriceMinute");
     b5.value = 0;
     let c5 = document.getElementById("fifthMachineHourCost");
-    c5.value = 60;
+    c5.value = 70;
 
     document.getElementById("fifthMachineResult").innerHTML = 0 + '€';
 
@@ -129,7 +129,7 @@ function reset() {
     let b6 = document.getElementById("sixthPartPriceMinute");
     b6.value = 0;
     let c6 = document.getElementById("sixthMachineHourCost");
-    c6.value = 55;
+    c6.value = 60;
     document.getElementById("sixthMachineResult").innerHTML = 0 + '€';
 
 
@@ -138,7 +138,7 @@ function reset() {
     let b7 = document.getElementById("seventhPartPriceMinute");
     b7.value = 0;
     let c7 = document.getElementById("seventhMachineHourCost");
-    c7.value = 45;
+    c7.value = 50;
     document.getElementById("seventhMachineResult").innerHTML = 0 + '€';
 
 
